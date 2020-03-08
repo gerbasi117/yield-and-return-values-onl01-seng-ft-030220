@@ -9,5 +9,4 @@ def hello(array)
 end
 
 binding.pry
-hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
-end
+hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
